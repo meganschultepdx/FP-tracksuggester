@@ -11,7 +11,7 @@ This webpage gathers input from the user about their coding interests or develop
 
 ## Setup/Installation Requirements
 
-* Make a clone a copy from the GitHub repository at:  [I'm an inline-style link](https://www.google.com)
+* Make a clone a copy from the GitHub repository at:  [I'm an inline-style link](meganschultepdx.github.io/FP-tracksuggester)
 * Open in Atom or similar text editor to view code
 * open .html file in browser for web view
 * or you can use this to view my GH-pages for this project:
