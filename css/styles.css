@@ -2,8 +2,44 @@ body {
   background: lightgray;
 }
 
+button {
+  background-color: #3E4142;
+  color: white;
+  height: 50px;
+  width: 200px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.header {
+  border: 2px solid darkgray;
+  border-radius: 8px;
+  background: darkgray;
+}
+
+#subheader {
+  border: 2px solid ##EFF1E4;
+  border-radius: 8px;
+  background: #EFF1E4;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  color: #022A36
+}
+
+p {
+  text-align: center;
+  font-size: 24px;
+  color: #581845
+}
+
+
+
 #css {
   display: none;
+  float: cent
 }
 
 #java {

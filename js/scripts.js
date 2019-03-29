@@ -20,8 +20,7 @@ $(document).ready(function() {
     } else {
       $("#moreResearch").show();
       $("#css, #php, #java").hide();
-
-  }
+    }
 
   event.preventDefault();
   });
