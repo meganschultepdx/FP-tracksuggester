@@ -7,6 +7,14 @@ $(document).ready(function() {
     var ask4 = $("input:radio[name=ask4]:checked").val();
     var ask5 = $("input:radio[name=ask5]:checked").val();
 
-    if ()
+    if (ask1 === "front" && ask2 === "design" || ask1 === "front" && ask3 === "userExperience" || ask1 === "design" && ask4 === "agency" || ask1 === "design" && ask5 === "designers" || ask2 === "design" && ask3 === "userExperience") {
+    // if (ask1 === "front" && ask2 === "design") {
+    $("#css").show();
+    $("#java, #php").hide();
+  } else {
+
   }
-}
+
+  event.preventDefault();
+  });
+});
