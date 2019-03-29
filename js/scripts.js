@@ -7,11 +7,10 @@ $(document).ready(function() {
     var ask4 = $("input:radio[name=ask4]:checked").val();
     var ask5 = $("input:radio[name=ask5]:checked").val();
 
-    // if (ask1 === "front" && ask2 === "design" || ask1 === "front" && ask3 === "userExperience" || ask1 === "design" && ask4 === "agency" || ask1 === "design" && ask5 === "designers" || ask2 === "design" && ask3 === "userExperience" || ask4 === "agency" && ask5 === "designers") {
-    if (ask1 === "front" && ask2 === "design" && ask3 === "userExperience" || ask1 === "front" && ask2 === "design" && ask4 === "agency" || ask1 === "front" && ask2 === "design" && ask5 === "designers") {
+    if (ask1 === "front" && ask2 === "design" && ask3 === "userExperience" || ask1 === "front" && ask2 === "design" && ask4 === "agency" || ask1 === "front" && ask2 === "design" && ask5 === "designers" || ask1 === "front" && ask3 === "userExperience" && ask4 === "agency" || ask1 === "front" && ask3 === "userExperience" && ask5 === "designers" || ask1 === "front" && ask4 === "agency" && ask5 === "designers" || ask2 === "design" && ask3 === "userExperience" && ask4 === "agency" || ask2 === "design" && ask3 === "userExperience" && ask5 === "designers" || ask2 === "design" && ask4 === "agency" && ask5 === "designers" || ask3 === "userExperience" && ask4 === "agency" && ask5 === "designers") {
       $("#css").show();
       $("#java, #php, #moreResearch").hide();
-    } else if (ask1 === "back" && ask2 === "android" || ask1 === "back" && ask3 === "innerworkings" && ask4 === "enterprise"|| ask1 === "back" && ask2 === "android" && ask4 === "enterprise" || ask1 === "back" && ask2 === "android" && ask5 === "developers" || ask1 === "back" && ask3 === "innerWorkings" && ask4 === "enterprise") {
+    } else if (ask1 === "back" && ask2 === "android" && ask3 === "innerWorkings" || ask1 === "back" && ask2 === "android" && ask4 === "enterprise"|| ask1 === "back" && ask2 === "android" && ask5 === "developers" || ask2 === "android" && ask3 === "innerWorkings" && ask4 === "enterprise" || ask1 === "back" && ask3 === "innerWorkings" && ask4 === "enterprise" || ask1 === "back" && ask4 === "enterprise" && ask5 === "developers" || ask2 === "android" && ask3 === "innerWorkings" && ask5 === "developers" || ask3 === "innerWorkings" && ask4 === "enterprise" && ask5 === "developers") {
       $("#java").show();
       $("#css, #php, #moreResearch").hide();
     } else if (ask1 === "back" && ask2 === "websites" || ask1 === "back" && ask3 === "systems" || ask1 === "back" && ask4 === "government") {
