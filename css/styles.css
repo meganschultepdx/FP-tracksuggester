@@ -1,5 +1,5 @@
 body {
-  background: lightgray;
+  background: gray;
 }
 
 button {
@@ -48,14 +48,11 @@ img {
 }
 
 #subheader {
-  border: 2px solid #EFF1E4;
+  border: 5px solid #EFF1E4;
   border-radius: 8px;
   background: lightgray;
   font-family: monospace;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 20px 40px 20px 40px;
 }
 
 .info {
@@ -63,6 +60,7 @@ img {
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 8px;
+  background: lightgray;
 }
 
 .radio {
@@ -74,10 +72,7 @@ img {
   border: 2px dashed #581845;
   border-radius: 8px;
   background: #BAB760;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 15px 40px 10px 40px;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -89,11 +84,10 @@ img {
   border: 2px dashed #581845;
   border-radius: 8px;
   background: #D3F3A6;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 15px 40px 10px 40px;
   padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
 }
 
@@ -102,11 +96,10 @@ img {
   border: 2px dashed #581845;
   border-radius: 8px;
   background: #BAB760;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 15px 40px 10px 40px;
   padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
 }
 
@@ -115,11 +108,10 @@ img {
   border: 2px dashed #581845;
   border-radius: 8px;
   background: #D3F3A6;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 15px 40px 10px 40px;
   padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
 
 }
