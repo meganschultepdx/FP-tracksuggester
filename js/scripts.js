@@ -10,11 +10,16 @@ $(document).ready(function() {
     // if (ask1 === "front" && ask2 === "design" || ask1 === "front" && ask3 === "userExperience" || ask1 === "design" && ask4 === "agency" || ask1 === "design" && ask5 === "designers" || ask2 === "design" && ask3 === "userExperience" || ask4 === "agency" && ask5 === "designers") {
     if (ask1 === "front" && ask2 === "design" && ask3 === "userExperience" || ask1 === "front" && ask2 === "design" && ask4 === "agency" || ask1 === "front" && ask2 === "design" && ask5 === "designers") {
       $("#css").show();
-      $("#java, #php").hide();
+      $("#java, #php, #moreResearch").hide();
     } else if (ask1 === "back" && ask2 === "android" || ask1 === "back" && ask3 === "innerworkings" && ask4 === "enterprise"|| ask1 === "back" && ask2 === "android" && ask4 === "enterprise" || ask1 === "back" && ask2 === "android" && ask5 === "developers" || ask1 === "back" && ask3 === "innerWorkings" && ask4 === "enterprise") {
       $("#java").show();
-      $("#css, #php").hide();
+      $("#css, #php, #moreResearch").hide();
+    } else if (ask1 === "back" && ask2 === "websites" || ask1 === "back" && ask3 === "systems" || ask1 === "back" && ask4 === "government") {
+      $("#php").show();
+      $("#css, #java, #moreResearch").hide();
     } else {
+      $("#moreResearch").show();
+      $("#css, #php, #java").hide();
 
   }
 
