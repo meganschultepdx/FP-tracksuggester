@@ -5,22 +5,39 @@ body {
 button {
   background-color: #3E4142;
   color: #4A7D8A;
-  height: 50px;
-  width: 200px;
+  height: 75px;
+  width: 250px;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 15px;
 }
 
 h1 {
   font-size: 55px;
   color: #4A7D8A;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 30px;
+  align: center;
+}
+
+p {
   text-align: center;
+  font-size: 24px;
+  color: #581845
 }
 
 .header {
   border: 2px solid #363C42;
   border-radius: 8px;
   background: #363C42;
+  padding-top: 40px;
 }
 
 #subheader {
@@ -28,6 +45,10 @@ h1 {
   border-radius: 8px;
   background: lightgray;
   font-family: monospace;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .info {
@@ -41,27 +62,30 @@ h1 {
   border-radius: 8px;
 }
 
-p {
-  text-align: center;
-  font-size: 24px;
-  color: #581845
+.radio {
+  font-size: 16px;
 }
 
-
-
 #css {
-  display: none;
-  float: cent
+  /* display: none; */
+  border: 2px dashed black;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 30px;
 }
 
 #java {
-  display: none;
+  /* display: none; */
 }
 
 #php {
-  display: none;
+  /* display: none; */
 }
 
 #moreResearch {
-  display: none;
+  /* display: none; */
+}
+
+#radio {
+
 }
