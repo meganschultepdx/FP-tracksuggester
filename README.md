@@ -1,4 +1,4 @@
-# _{Application Name}_
+# Track Suggester
 ***
 
 #### JavaScript and jQuery Friday Project for Epicodus, 3.29.2019
@@ -7,7 +7,7 @@
 
 ## Description
 
-This webpage gathers input from the user, compiles it and runs it through a branching function that returns an option for the user.
+This webpage gathers input from the user about their coding interests or developer job goals, compiles the inputted data and runs it through a branching function that returns an Epicodus track recommendation for the user.
 
 ## Setup/Installation Requirements
 
