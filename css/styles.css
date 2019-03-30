@@ -1,5 +1,8 @@
 body {
   background: gray;
+  background-image: url(../img/code.jpg);
+  background-size: cover;
+  background-repeat: repeat;
 }
 
 button {
@@ -14,8 +17,9 @@ button {
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 60px;
   color: #4A7D8A;
+  font-weight: lighter;
 }
 
 p {
@@ -31,6 +35,7 @@ h2 {
 h3 {
   font-size: 30px;
   align: center;
+  font-weight: lighter;
 }
 
 img {
@@ -44,15 +49,21 @@ img {
   background: #363C42;
   padding-top: 40px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 75px;
+  margin-bottom: 20px;
+  opacity: .9;
 }
 
 #subheader {
-  border: 5px solid #EFF1E4;
+  border: 5px solid lightgray;
   border-radius: 8px;
   background: lightgray;
-  font-family: monospace;
+  /* font-family: monospace; */
+  /* font-weight: lighter; */
   padding: 20px 40px 20px 40px;
+  /* opacity: .8; */
+  font-weight: lighter;
+  opacity: .8;
 }
 
 .info {
@@ -61,6 +72,7 @@ img {
   padding-right: 30px;
   border-radius: 8px;
   background: lightgray;
+  opacity: .8;
 }
 
 .radio {
@@ -69,7 +81,8 @@ img {
 
 #css {
   display: none;
-  border: 2px dashed #581845;
+  /* border: 2px solid #581845; */
+  border: 2px solid #3E4142;
   border-radius: 8px;
   background: #BAB760;
   margin: 15px 40px 10px 40px;
@@ -77,11 +90,12 @@ img {
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
+  opacity: .9;
 }
 
 #java {
   display: none;
-  border: 2px dashed #581845;
+  border: 2px solid #3E4142;
   border-radius: 8px;
   background: #D3F3A6;
   margin: 15px 40px 10px 40px;
@@ -89,11 +103,12 @@ img {
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
+  opacity: .9;
 }
 
 #php {
   display: none;
-  border: 2px dashed #581845;
+  border: 2px solid #3E4142;
   border-radius: 8px;
   background: #BAB760;
   margin: 15px 40px 10px 40px;
@@ -101,11 +116,12 @@ img {
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
+  opacity: .9;
 }
 
 #moreResearch {
   display: none;
-  border: 2px dashed #581845;
+  border: 2px solid #3E4142;
   border-radius: 8px;
   background: #D3F3A6;
   margin: 15px 40px 10px 40px;
@@ -113,7 +129,7 @@ img {
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
-
+  opacity: .9;
 }
 
 #final {
