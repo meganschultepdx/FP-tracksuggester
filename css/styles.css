@@ -7,7 +7,8 @@ body {
 
 button {
   background-color: #3E4142;
-  color: #4A7D8A;
+  /* color: #4A7D8A; */
+  color: #168282;
   height: 75px;
   width: 250px;
   border-radius: 8px;
@@ -18,7 +19,8 @@ button {
 
 h1 {
   font-size: 60px;
-  color: #4A7D8A;
+  /* color: #4A7D8A; */
+  color: #168282;
   font-weight: lighter;
 }
 
@@ -35,7 +37,7 @@ h2 {
 h3 {
   font-size: 30px;
   align: center;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 img {
@@ -136,4 +138,5 @@ img {
 
 #final {
   font-size: 26px;
+  font-weight: normal;
 }
