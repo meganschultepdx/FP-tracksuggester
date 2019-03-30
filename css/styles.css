@@ -24,7 +24,7 @@ h1 {
 
 p {
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   color: #581845;
 }
 
@@ -47,7 +47,9 @@ img {
   border: 2px solid #363C42;
   border-radius: 8px;
   background: #363C42;
-  padding-top: 40px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
   margin-top: 75px;
   margin-bottom: 20px;
@@ -58,10 +60,7 @@ img {
   border: 5px solid lightgray;
   border-radius: 8px;
   background: lightgray;
-  /* font-family: monospace; */
-  /* font-weight: lighter; */
   padding: 20px 40px 20px 40px;
-  /* opacity: .8; */
   font-weight: lighter;
   opacity: .8;
 }
@@ -70,6 +69,9 @@ img {
   border: 2px solid #363C42;
   padding-left: 30px;
   padding-right: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
   border-radius: 8px;
   background: lightgray;
   opacity: .8;
